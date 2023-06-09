@@ -22,3 +22,6 @@ jobs:
       run: |
         java -version
         mvn -version
+        mvn clean test
+        ls -la
+        pwd
